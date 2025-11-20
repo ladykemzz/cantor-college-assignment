@@ -1,0 +1,51 @@
+h1,h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    min-width: 600px;
+}
+
+header {
+    height: 300px;
+    margin-bottom: 20px;
+    /* background-image: url(.../images/); */
+    padding-left: 0;
+}
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    /* margin: 5vh auto; */
+    padding: 10px;
+    display: inline;
+}
+
+nav {
+    position: static;
+    max-height: 60px;
+}
+nav li:hover {
+    background-color: #575757;
+}
+nav ul {
+    padding-left: 0;
+    flex-direction: row;
+}
+nav ul li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    border-left: 1px solid #fff;
+}
+nav li:first-child {
+    border-left: none;
+}
+
+#burgerIcon {
+    display: none;
+}

@@ -4,29 +4,36 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cantor College</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!-- <link rel="stylesheet" type="text/css" media="only screen and (min-width:601px)" href="css/desktop.css"> -->
-         <script src="js/main.js" defer></script>
-        <menu>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="workExperience.html">Work Experience</a></li>
-            <li><a href="computing-courses.html"> Computing Courses </a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="learning-resources.html">Learning Resources</a></li>
-            <li><a href="working-with-business.html">Working with Business</a></li>
-        </menu>
+        <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+        <link rel="stylesheet" type="text/css" media="only screen and (min-width:601px)" href="css/desktop.css">
+        <!-- <script src="js/main.js" defer></script> -->
+        <script src="js/burgermenu.js" defer></script>
     </head>
     <body>
         <div class="container">
-            <div class="header">
-                <h1>Sheffield Winter Gardens</h1>
-                <h2>Part of Heart of the City Project</h2>
-            </div>
-            <div class="content">
-                <p> Sheffield's Winter Garden … </p>
-                <p> The Winter Garden is part of the city's 'Heart of the City' project …………..</p>
-                <p>The garden contains more than 2,500 plants from all around the world……….</p>
-                <p>The Winter Garden will be open daily to … </p>
+            <header>
+                <div id="burgerIcon"><button>&#9776;</button></div>
+                <div>
+                    <h1 id="myHeading">Sheffield Winter Gardens</h1>
+                </div>
+                <nav class="open">
+                    <ul> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="workExperience.html">Work Experience</a></li>
+                        <li><a href="computing-courses.html"> Computing Courses </a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="learning-resources.html">Learning Resources</a></li>
+                        <li><a href="working-with-business.html">Working with Business</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="main"> 
+                <div class="content">
+                    <h2> Sheffield's Winter Garden … </h2>
+                    <p> The Winter Garden is part of the city's 'Heart of the City' project …………..</p>
+                    <p>The garden contains more than 2,500 plants from all around the world……….</p>
+                    <p>The Winter Garden will be open daily to … </p>
+                </div>
             </div>
             <div id="footer">
                 <p>&copy; Copyrights by Ekemini Davis</p>
